@@ -12,6 +12,7 @@ public class EjercicioSumatoria {
     public static void main (String args[]) {
         int suma = 0;
         int contador = 0;
+        System.out.println("Inicio del programa!!");
 
         Scanner input = new Scanner( System.in);
 
@@ -25,6 +26,7 @@ public class EjercicioSumatoria {
 
         float promedio = calcularPromedio(suma, contador);
         System.out.println("El promedio es " + promedio);
+        System.out.println("Fin del programa!!");
     }
 
     public static int sumar(int suma, int numero) {
